@@ -1,0 +1,66 @@
+body {
+  background: #056;
+}
+
+#banner-message {
+  background: aqua;
+  border-radius: 4px;
+  padding: 2% 20%;
+  font-size: 25px;
+  text-align: center;
+  transition: all 0.2s;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+#breed_data {
+  background-color: white;
+  border-radius: 4px;
+  padding: 2% 2%;
+  font-size: 12px;
+  text-align: center;
+  transition: all 0.2s;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+#breed_image {
+  background: #fff;
+  margin: 0 auto;
+  width: 460px;
+  max-width:100%;
+}
+.heading,h5{
+   text-align: center;
+   padding:1%;
+   background-color: black;
+   color: beige;
+   font-size: 1.1rem;
+}
+td{
+  font-size:1.1rem;
+  border-bottom:1px solid black;
+}
+table{
+  overflow: auto;
+  border:1px solid black;
+}
+#btn{
+  padding:1%;
+  background-color: black;
+  color: white;
+}
+#cen{
+  text-align: center;
+}
+select{
+  padding:1%;
+  border:2px solid black;
+}
+@media screen and (min-width:600px){
+  table{
+    margin:0 auto;
+  }
+}

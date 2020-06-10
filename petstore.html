@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet Store</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="petstore.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+
+
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nav-wrapper black">
+        <a href="index.html" class="brand-logo">CA-DO</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="store.html">Pet Store</a></li>
+          <li><a href="petstore.html">Adoption</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="cart.html"><i class="material-icons">add_shopping_cart</i></a></li>
+          <li><span class="badge badge1 red white-text">0</span></li>
+        </ul>
+      </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="store.html">Pet Store</a></li>
+      <li><a href="petstore.html">Adoption</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="cart.html">Cart</a></li>
+    </ul>
+    <div class="front">
+      <img src="https://images.wallpaperscraft.com/image/pug_dog_tongue_hanging_out_144417_3840x2400.jpg" alt="pets">
+      <h4>Highest quality pets you will love</h4>
+      <a class="waves-effect waves-light btn black" href="learnmore.html">Learn More</a>
+    </div>
+  </header>
+
+  <h5 class="white-text black center heading" style="padding: 2%;">ADOPT YOUR PET</h5>
+  <div class="row row_p">
+    <div class="col s12 m4">
+      <div class="card pet_img hoverable">
+        <div class="card-image">
+          <img
+            src="https://image.winudf.com/v2/image1/bmlraWFub2l4ZS5QZXRzSERfc2NyZWVuXzFfMTU0NzkwNjI2MF8wMDM/screen-1.jpg?fakeurl=1&type=.jpg">
+          <span class="card-title">Tommy</span>
+          <a class="btn-floating pulse halfway-fab waves-effect waves-light red cart_click" id="1"><i
+              class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
+            require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card pet_img hoverable">
+        <div class="card-image">
+          <img
+            src="https://c4.wallpaperflare.com/wallpaper/234/394/427/cat-hd-1080p-high-quality-wallpaper-preview.jpg">
+          <span class="card-title">Kitty</span>
+          <a class="btn-floating pulse halfway-fab waves-effect waves-light red cart_click" id="2"><i
+              class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
+            require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card pet_img hoverable">
+        <div class="card-image">
+          <img src="https://besthqwallpapers.com/img/original/109877/golden-retriever-lawn-puppy-cute-dogs-pets.jpg">
+          <span class="card-title">Max</span>
+          <a class="btn-floating pulse halfway-fab waves-effect waves-light red cart_click" id="3"><i
+              class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
+            require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card pet_img hoverable">
+        <div class="card-image">
+          <img
+            src="https://cdn.miscellaneoushi.com/2560x1600/20140511/flowers%20animals%20dogs%20crowns%20pets_www.miscellaneoushi.com_7.jpg">
+          <span class="card-title">Minni</span>
+          <a class="btn-floating pulse halfway-fab waves-effect waves-light red cart_click" id="4"><i
+              class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
+            require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card pet_img hoverable">
+        <div class="card-image">
+          <img src="https://www.cdc.gov/healthypets/images/pets/cute-dog-headshot.jpg">
+          <span class="card-title">Parry</span>
+          <a class="btn-floating pulse halfway-fab waves-effect waves-light red cart_click" id="5"><i
+              class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
+            require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card pet_img hoverable">
+        <div class="card-image">
+          <img src="https://i.pinimg.com/originals/28/dc/a9/28dca9e97f8231b112f1cf6dd3c76edf.jpg">
+          <span class="card-title">Marrie</span>
+          <a class="btn-floating pulse halfway-fab waves-effect waves-light red cart_click" id="6"><i
+              class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
+            require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card pet_img hoverable">
+        <div class="card-image">
+          <img src="https://wallpaperaccess.com/full/747284.jpg">
+          <span class="card-title">Larry</span>
+          <a class="btn-floating pulse halfway-fab waves-effect waves-light red cart_click" id="7"><i
+              class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
+            require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card pet_img hoverable">
+        <div class="card-image">
+          <img
+            src="https://www.desktopbackground.org/p/2012/05/17/391057_betta-fish-wallpapers-hd-download_1280x853_h.jpg">
+          <span class="card-title">Layla</span>
+          <a class="btn-floating pulse halfway-fab waves-effect waves-light red cart_click" id="8"><i
+              class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
+            require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card pet_img hoverable">
+        <div class="card-image">
+          <img src="https://i.pinimg.com/originals/60/81/57/6081577056ac1e91ba8b0deee8d7fd8c.jpg">
+          <span class="card-title">Vodo</span>
+          <a class="btn-floating pulse halfway-fab waves-effect waves-light red cart_click" id="9"><i
+              class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
+            require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card pet_img hoverable">
+        <div class="card-image">
+          <img src="https://www.itl.cat/pngfile/big/201-2010660_photo-of-2-lovely-rabbit-full-hd-lovely.jpg">
+          <span class="card-title">Tom and jerry</span>
+          <a class="btn-floating pulse halfway-fab waves-effect waves-light red cart_click" id="10"><i
+              class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
+            require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card pet_img hoverable">
+        <div class="card-image">
+          <img
+            src="https://hdfreewallpaper.net/wp-content/uploads/2016/02/two-beautiful-rabbits-hd-free-wallappers-for-desktop.jpg">
+          <span class="card-title">Bunty and Bubbly</span>
+          <a class="btn-floating pulse halfway-fab waves-effect waves-light red cart_click" id="11"><i
+              class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
+            require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card pet_img hoverable">
+        <div class="card-image">
+          <img src="https://i.pinimg.com/originals/36/0c/62/360c628d043b2461d011d0b7f9b4d880.jpg">
+          <span class="card-title">Sofie</span>
+          <a class="btn-floating pulse halfway-fab waves-effect waves-light red cart_click" id="12"><i
+              class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
+            require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card pet_img hoverable">
+        <div class="card-image">
+          <img src="https://blog.mystart.com/wp-content/uploads/shutterstock_352176329-e1527775515405.jpg">
+          <span class="card-title">Teddy</span>
+          <a class="btn-floating pulse halfway-fab waves-effect waves-light red cart_click" id="13"><i
+              class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
+            require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card pet_img hoverable">
+        <div class="card-image">
+          <img src="https://cdn.pling.com/img/c/c/8/1/fc36413702816299cc8930326815a0eff794.jpg">
+          <span class="card-title">Butter and Scotch</span>
+          <a class="btn-floating pulse halfway-fab waves-effect waves-light red cart_click" id="14"><i
+              class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
+            require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card pet_img hoverable">
+        <div class="card-image">
+          <img
+            src="https://www.wallpapers13.com/wp-content/uploads/2016/02/Yellow-Parrot-Wallpaper-hd-3840x2400-1920x1080.jpg">
+          <span class="card-title">Katie</span>
+          <a class="btn-floating pulse halfway-fab waves-effect waves-light red cart_click" id="15"><i
+              class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
+            require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card pet_img hoverable">
+        <div class="card-image">
+          <img src="https://4.bp.blogspot.com/-Ob7EeSxgnec/VoQC9Lwh8aI/AAAAAAAACLg/sOB4qZE7wTg/s1600/1.jpg">
+          <span class="card-title">Sheru</span>
+          <a class="btn-floating pulse halfway-fab waves-effect waves-light red cart_click" id="16"><i
+              class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
+            require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="page-footer black">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Footer Content</h5>
+          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2014 Copyright Text
+        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+  <script src="index1.js"></script>
+</body>
+
+</html>
