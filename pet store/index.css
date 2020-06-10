@@ -1,0 +1,157 @@
+.front img{
+    max-width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.front h4{
+    color: white;
+    margin-top: -80%;
+    padding: 5%;
+    text-align: center;
+    font-weight: bold;
+}
+.front a{
+    margin:0 30%;
+}
+.card_s{
+    width:90%;
+    margin: 10% auto;
+}
+.pet{
+    margin:10% auto;
+    max-width: 100%;
+    width: 300px;
+    height: 200px;
+}
+.form{
+    background-image:url(https://i.pinimg.com/originals/28/dc/a9/28dca9e97f8231b112f1cf6dd3c76edf.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    opacity: 0.8;
+    margin-bottom: 15%;
+    
+}
+.form label,input{
+    color: white;
+    margin-left:4%;
+}
+.form ul{
+    background-color: black!important;
+}
+.form button{
+    margin-left: 40%;
+}
+.span{
+    color:white!important;
+}
+.parallax{
+    height: 250px;
+}
+.parallax-container{
+    height: 300px;
+}
+#images{
+    padding:3%;
+    background-color: aquamarine;
+}
+#images h6{
+    padding:1%;
+    background-color: black;
+    color: white;
+    width:300px;
+    margin:0 auto;
+}
+#images img{
+    border:2px solid black;
+    margin-bottom: 2%;
+    margin: 0 auto;
+}
+.remove_button{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+@media screen and (min-width:600px){
+.front img{
+    height: 600px;
+}
+.card_s{
+    margin-top:70%;
+    margin-bottom: 20%;
+    width:100%;
+    height: 450px;
+}
+.card-title{
+    font-size: 1.4rem!important;
+}
+.front h4{
+    margin-top: -60%;
+}
+.front a{
+    margin:0 40%;
+}
+.form{
+    opacity: 1;
+    background-attachment: fixed;
+    height: 500px;
+    margin-bottom: 10%;
+    
+    background-image: url(https://i.pinimg.com/originals/06/f7/fa/06f7fa3fe3dca0775514a35609225a2c.jpg);
+}
+.form_in{
+    width:50%;
+    margin:10% auto;
+    background-image: url(https://i.pinimg.com/originals/28/dc/a9/28dca9e97f8231b112f1cf6dd3c76edf.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+    height: 300px;
+}
+.row_s{
+    margin:0 10%;
+}
+.pet{
+    width:250px;
+    height:150px;
+}
+.parallax{
+    height: auto;
+}
+.parallax-container{
+    height: 500px;
+}
+
+}
+@media screen and (min-width:900px){
+.row_s{
+    margin: 0 20%;
+}
+.form_in{
+    height:400px;
+    margin: 7% auto;
+}
+.form{
+    height:600px;
+}
+.front img{
+    height:800px;
+    width:100%;
+}
+.card_s{
+    margin-top:70%;
+    width:80%;
+    height: 450px;
+}
+.front h4{
+    margin-top: -50%;
+    font-size: 3rem;
+}
+.front a{
+    margin:0 45%;
+    width: 15%;
+}
+.row_c{
+    padding: 0 3%;
+}
+}

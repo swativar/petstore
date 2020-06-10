@@ -1,0 +1,21 @@
+#cart_con{
+    text-align: center;
+    padding: 2%;
+    
+}
+#button_cart{
+    text-align: center;
+    padding:10% 0;
+    background-color: aqua;
+}
+#cart_con img{
+    max-width: 100%;
+    width:400px;
+    height: 280px;
+}
+
+@media screen and (min-width:600px){
+    #button_cart{
+        padding:5% 0;
+    }
+}

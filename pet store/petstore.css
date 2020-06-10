@@ -1,0 +1,28 @@
+.heading{
+    margin-top: 40%;
+}
+.thank{
+    background-color: aquamarine;
+    padding: 10%;
+    text-align: center;
+}
+@media screen and (min-width:600px){
+    .pet_img{
+        width:220px;
+        height: 310px;
+    }
+}
+@media screen and (min-width:900px){
+    .pet_img{
+        width:300px;
+        height: 350px;
+    }
+    .row_p{
+        margin:0 4%;
+    }
+}
+@media screen and (min-width:1200px){
+    .row_p{
+        margin:0 10%;
+    }
+}
