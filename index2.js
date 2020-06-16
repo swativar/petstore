@@ -11,7 +11,7 @@ xmlhttp.onreadystatechange = function() {
   }
 };
 
-xmlhttp.open("GET", "http://api.thedogapi.com/v1/breeds", true);
+xmlhttp.open("GET", "https://api.thedogapi.com/v1/breeds", true);
 xmlhttp.send();
 function populateBreedsSelect(breeds) {
     $('select.breed_select').empty().append(function() {
