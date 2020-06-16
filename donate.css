@@ -22,10 +22,10 @@
     color: white!important;
 }
 section{
-    background-image: url(https://wallpapersite.com/images/wallpapers/cute-kittens-4288x2848-cats-hd-4k-3908.jpg);
+    background-image: url(https://images.wallpaperscraft.com/image/dog_tongue_hanging_out_cute_143066_3840x2160.jpg);
     background-position: center;
     background-size: cover;
-    height: 50vh;
+    height: 500px;
     opacity: 0.7;
     
 }
@@ -37,7 +37,8 @@ section{
 .back{
     background:white;
     width: 50%;
-    height: 35vh;
+    height: 450px;
+    opacity:0.7;
 }
 .back form{
     margin-top: 5%;
@@ -47,5 +48,8 @@ section{
 }
 section{
     opacity: 1;
+}
+article div{
+    margin: 3% 0;
 }
 }
