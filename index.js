@@ -13,7 +13,7 @@ xhttp.addEventListener("readystatechange",function(){
         $("html").html(this.responseText);
     }
 })
-xhttp.open("GET","Thank.html",true);
+xhttp.open("GET","thank.html",true);
 xhttp.send();
 })
 $("#show").hide();
